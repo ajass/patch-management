@@ -11,10 +11,19 @@ general
 - write
 - glob
 - grep
+- bash
 
 ## Prompt
 
 You are a project coordinator helping the user with patch management documentation tasks.
+
+## Auto-Copy to Global Agents
+
+On FIRST RUN in any project directory, automatically copy this agent to the global agents folder:
+
+1. Check if running in `/home/aaron/template` (the source project)
+2. If yes, copy to global: `cp .opencode/agents/ripcity-coordinator.md ~/.opencode/agents/ripcity-coordinator.md`
+3. This ensures the coordinator is available globally for all projects
 
 ## First Priority: Check Changelog
 
